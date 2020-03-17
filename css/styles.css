@@ -155,34 +155,49 @@ nav {
       text-align: center;
       font-size: 6vh;
       padding-top: 19%; }
+    .container1 .con1 h3 {
+      color: white;
+      text-align: center;
+      font-size: 3vh; }
     .container1 .con1 h4 {
       color: white; }
-  .container1 .skill {
-    display: grid;
-    margin: 9%;
-    left: 10;
-    padding-left: 13%; }
-  .container1 .skill-bar {
-    width: 100%;
-    max-width: 80%;
-    height: 26px;
-    height: 1.2em;
-    background: #e6eae3;
-    background: #0866dc;
-    background: rgba(141, 185, 240, 0.2);
-    overflow: hidden;
-    border-radius: 5px; }
-  .container1 .skillbar {
-    height: 1.66em;
-    float: left;
-    background: rgba(0, 0, 0, 0.74); }
-  .container1 .value-90 {
-    width: 90%; }
-  .container1 .value-70 {
-    width: 70%; }
-  .container1 .value-80 {
-    width: 80%; }
-  .container1 .value-40 {
-    width: 40%; }
+
+.skill {
+  display: grid;
+  margin: 9%;
+  left: 10;
+  padding-left: 13%; }
+  .skill p {
+    color: white;
+    text-align: center;
+    font-size: 14px; }
+
+.skill-bar {
+  width: 100%;
+  max-width: 80%;
+  height: 26px;
+  height: 1.2em;
+  background: #e6eae3;
+  background: #0866dc;
+  background: rgba(141, 185, 240, 0.2);
+  overflow: hidden;
+  border-radius: 5px; }
+
+.skillbar {
+  height: 1.66em;
+  float: left;
+  background: rgba(0, 0, 0, 0.74); }
+
+.value-90 {
+  width: 90%; }
+
+.value-70 {
+  width: 70%; }
+
+.value-80 {
+  width: 80%; }
+
+.value-40 {
+  width: 40%; }
 
 /*# sourceMappingURL=styles.css.map */

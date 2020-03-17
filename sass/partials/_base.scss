@@ -205,15 +205,28 @@ a{
     font-size: 6vh;
     padding-top: 19%;
     }
+    h3{
+        color: white;
+        text-align: center;
+        font-size: 3vh;
+  
+    }
     h4{
         color: white;
     }
+}
+
 }
 .skill{
     display: grid;
     margin: 9%;
     left: 10;
     padding-left: 13%;
+    p{
+        color: white;
+        text-align: center;
+        font-size: 14px;
+    }
 }
 .skill-bar {
     width: 100%;
@@ -236,4 +249,3 @@ a{
   .value-70  { width: 70%;  };
   .value-80  { width: 80%;  };
   .value-40  { width: 40%;  }
-}
