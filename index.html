@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Orbitron:600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css ">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Ashton English|Online Portfolio</title>
 </head>
@@ -12,7 +14,35 @@
    <!-- Header -->
 <div class="Header">
 <div class="hero-image">
-
+    <nav role="navigation">
+        <div id="burger">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="#Home">
+              <li>Home</li>
+            </a>
+            <a href="#About">
+              <li>About</li>
+            </a>
+            <a href="#Projects">
+              <li>Projects</li>
+            </a>
+            <a href="#Skills">
+              <li>Skills</li>
+            </a>
+            <a href="#Education">
+              <li>Education</li>
+            </a>
+            <a href="#Contact">
+              <li>Contact</li>
+            </a>
+          </ul>
+        </div>
+    
+      </nav>
     <div class="header-text">
         <h1>I<span>'</span>m</h1>
         <h1>Ashton</h1>
@@ -21,7 +51,7 @@
     </div>
 
     <div class="header-text2">
-        <h1>About</h1>
+        <h1 id="about">About</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, modi! Quibusdam at dignissimos cumque eius nostrum soluta aspernatur fugit sint quasi dicta doloremque repellendus itaque similique culpa, laboriosam assumenda. Placeat?</p>
     </div>
 </div>
@@ -32,6 +62,6 @@
     </div>
 </div>
 
-
+<script src="js/styles.js"></script>
 </body>
 </html>
