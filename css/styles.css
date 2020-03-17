@@ -218,5 +218,13 @@ nav {
     text-align: center;
     padding-top: 3%;
     font-size: 6vh; }
+  .container2 .con2-grid {
+    display: grid;
+    grid-gap: -20%;
+    grid-template-columns: auto auto auto;
+    padding-right: 6%; }
+  .container2 img {
+    width: 97%;
+    margin: 10%; }
 
 /*# sourceMappingURL=styles.css.map */
