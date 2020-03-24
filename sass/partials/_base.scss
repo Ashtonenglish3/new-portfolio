@@ -252,7 +252,7 @@ a{
 
   .container2{
     background-image:  url("../img/con3.jpg");
-    height: 161vh;
+    height: 189vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -284,3 +284,59 @@ a{
 
 
   }
+
+  .container3 {
+    width: 80%;
+    padding: 50px 0;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+
+    &:before{     
+      content:"";
+      position: absolute;
+      top: 0;
+      left: 50%;
+      margin-left: -1px;
+      width: 2px;
+      height: 100%;
+      background: #CCD1D9;
+      z-index: 1;
+    }
+    .time {
+      width: -webkit-calc(50% + 8px);
+      width: -moz-calc(50% + 8px);
+      width: calc(50% + 8px);
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -moz-box-pack: justify;
+      justify-content: space-between;
+      clear: both;
+   }
+   .time-right {
+    float: right;
+ }
+ .time-left {
+  float: left;
+  direction: rtl;
+}
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #F5F7FA;
+  background: #4FC1E9;
+  margin-top: 10px;
+  z-index: 9999
+}
+ .time-text {
+  width: 95%;
+    padding: 0px 18px;
+    margin-bottom: 94px;
+    color: #666;
+}
+ }
