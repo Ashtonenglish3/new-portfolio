@@ -44,16 +44,7 @@
 
 }
 
-.header-text2{
-    background:rgba(0, 0, 0, 0.7);
-    padding: 50px;
-    position: absolute;
-    margin: 0px;
-    bottom: 0px;
-    left: 19%;
-    right: 18%;
-   color: white;
-}
+
 
 
 a{
@@ -191,6 +182,39 @@ a{
     background-size: cover;
     position: relative;
     background-attachment: fixed;
+    .header-text{
+      background:rgba(0, 0, 0, 0.7);
+      padding: 50px;
+      display: grid;
+      margin: 0px;
+      bottom: 0px;
+      left: 19%;
+      right: 18%;
+     color: white;
+     .text-grid{
+      grid-template-columns: auto auto;
+      display: inline-grid;
+      grid-gap: 22%;
+      padding-right: -1%;
+      padding: 6px;
+       img{
+        border-radius: 50%;
+        border: 6px solid white;
+        width: 38vh;
+        margin-left: 64%;
+       }
+       .text{
+        padding-right: 8%;
+        margin: 7px;
+        h1{
+          font-size: 7vh;
+        }
+        p{
+          letter-spacing: 1px;
+        }
+       }
+     }
+  }
 
 .con1 {
     background-color: rgba(0,0,0,0.5);
