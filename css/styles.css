@@ -30,7 +30,7 @@
     letter-spacing: 4px;
     font-size: 10vh; }
   .header-text h1 span {
-    color: rgba(24, 35, 129, 0.87); }
+    color: #238bb1; }
   .header-text h2 {
     font-size: 4vh; }
 
@@ -80,7 +80,7 @@ nav {
   margin-bottom: 5px;
   position: relative;
   text-decoration: none;
-  background: white;
+  background: #238bb1;
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
@@ -96,7 +96,7 @@ nav {
 #burger input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: #238bb1;
   left: 35px;
   text-decoration: none; }
 
@@ -202,7 +202,7 @@ nav {
 
 .container2 {
   background-image: url("../img/con3.jpg");
-  height: 189vh;
+  height: 212vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -241,7 +241,7 @@ nav {
     margin-left: -1px;
     width: 2px;
     height: 100%;
-    background: #CCD1D9;
+    background: #238bb1;
     z-index: 1; }
   .container3 .time {
     width: -webkit-calc(50% + 8px);
@@ -259,21 +259,52 @@ nav {
   .container3 .time-right {
     float: right; }
   .container3 .time-left {
-    float: left;
-    direction: rtl; }
+    text-align: right;
+    direction: rtl;
+    padding-bottom: 84px; }
   .container3 .dot {
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    border: 2px solid #F5F7FA;
-    background: #4FC1E9;
+    border: 2px solid #238bb1;
+    background: #238bb1;
     margin-top: 10px;
     z-index: 9999; }
   .container3 .time-text {
     width: 95%;
-    padding: 0px 18px;
+    padding: 0px 62px;
     margin-bottom: 94px;
-    color: #666; }
+    color: #b6b4b4; }
+    .container3 .time-text h2 {
+      color: white; }
+    .container3 .time-text h4 {
+      color: white;
+      margin-bottom: 11%; }
+  .container3 .time-text h5 {
+    color: #238bb1; }
+  .container3 .time-text-left {
+    width: 95%;
+    padding: 0px 62px;
+    margin-bottom: 94px;
+    color: #b6b4b4; }
+    .container3 .time-text-left h2 {
+      color: white;
+      margin-bottom: 11%; }
+    .container3 .time-text-left h4 {
+      color: white; }
+  .container3 .time-text-left h5 {
+    color: #238bb1; }
+
+.container4 {
+  color: red;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 50px;
+  position: absolute;
+  margin: 0px;
+  bottom: 0px;
+  left: 19%;
+  right: 18%;
+  color: white; }
 
 /* 
   ##Device = Desktops

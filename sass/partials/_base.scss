@@ -36,7 +36,7 @@
     font-size: 10vh;
     }
     h1 span{
-        color: rgba(24, 35, 129, 0.87);
+        color: rgb(35, 139, 177);
             }
             h2{
                 font-size: 4vh;
@@ -102,7 +102,7 @@ a{
     margin-bottom: 5px;
     position: relative;
     text-decoration: none;
-    background: white;
+    background: rgb(35, 139, 177);
     border-radius: 3px;
     
     z-index: 1;
@@ -129,7 +129,7 @@ a{
   {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
-    background: #232323;
+    background: rgb(35, 139, 177);
     left:35px;
     text-decoration: none;
   }
@@ -252,7 +252,7 @@ a{
 
   .container2{
     background-image:  url("../img/con3.jpg");
-    height: 189vh;
+    height: 212vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -300,7 +300,7 @@ a{
       margin-left: -1px;
       width: 2px;
       height: 100%;
-      background: #CCD1D9;
+      background: rgb(35, 139, 177);
       z-index: 1;
     }
     .time {
@@ -321,22 +321,65 @@ a{
     float: right;
  }
  .time-left {
-  float: left;
+  text-align: right;
   direction: rtl;
+  padding-bottom: 84px;
 }
 .dot {
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  border: 2px solid #F5F7FA;
-  background: #4FC1E9;
+  border: 2px solid rgb(35, 139, 177);
+  background: rgb(35, 139, 177);
   margin-top: 10px;
   z-index: 9999
 }
  .time-text {
   width: 95%;
-    padding: 0px 18px;
+    padding: 0px 62px;
     margin-bottom: 94px;
-    color: #666;
+    color: rgb(182, 180, 180);
+    h2{
+      color: white;
+    }
+    h4{
+      color: white;
+      margin-bottom: 11%;
+    }
 }
+
+  .time-text h5{
+    color: rgb(35, 139, 177);
+  }
+  .time-text-left {
+    width: 95%;
+      padding: 0px 62px;
+      margin-bottom: 94px;
+      color: rgb(182, 180, 180);
+      h2{
+        color: white;
+        margin-bottom: 11%;
+      }
+      h4{
+        color: white;
+        
+      }
+  }
+  .time-text-left h5{
+    color: rgb(35, 139, 177);
+  }
+ 
  }
+ .container4{
+  
+  color: red;
+  background:rgba(0, 0, 0, 0.7);
+  padding: 50px;
+  position: absolute;
+  margin: 0px;
+  bottom: 0px;
+  left: 19%;
+  right: 18%;
+ color: white;
+ 
+}
