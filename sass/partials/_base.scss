@@ -176,7 +176,7 @@ a{
 
   .container1 {
     background-image:  url("../img/con1.jpg");
-    height: 161vh;
+    height: 148vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -239,40 +239,22 @@ a{
         color: white;
     }
 }
-
-}
-.skill{
-    display: grid;
-    margin: 9%;
-    left: 10;
-    padding-left: 13%;
-    p{
-        color: white;
-        text-align: center;
-        font-size: 14px;
+.skills-section{
+  display: grid;
+  .skills-sub{
+    display: inline;
+    grid-template-columns: auto auto auto;
+    margin: 12%;
+    img{
+      width: 22%;
+    border-radius: 50%;
+    border: 6px solid white;
+    padding: 34px;
+    margin-right: 28px;
     }
+  }
 }
-.skill-bar {
-    width: 100%;
-    max-width: 80%;
-    height: 26px;
-    height: 1.2em;
-    background: #e6eae3;
-    background: #0866dc;
-    background: rgba(141, 185, 240, 0.2);
-    overflow: hidden;
-    border-radius: 5px;
-  }
-  .skillbar {
-    height: 1.66em;
-    float: left;
-    background:rgba(0, 0, 0, 0.74);
-  
-  }
-  .value-90  { width: 90%;  };
-  .value-70  { width: 70%;  };
-  .value-80  { width: 80%;  };
-  .value-40  { width: 40%;  }
+}
 
   .container2{
     background-image:  url("../img/con3.jpg");
