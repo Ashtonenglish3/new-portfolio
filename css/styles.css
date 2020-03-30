@@ -11,7 +11,22 @@
   background-size: cover;
   position: relative;
   background-attachment: fixed; }
-
+  .Header .arrow {
+    left: 50%;
+    position: absolute;
+    width: 12vh;
+    bottom: 32%; }
+  .Header .bounce {
+    -moz-animation: bounce 1s infinite;
+    -webkit-animation: bounce 1s infinite;
+    animation: bounce 1s infinite; }
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0); }
+  40% {
+    transform: translateY(-30px); }
+  60% {
+    transform: translateY(-15px); } }
 .hero-image {
   background-color: rgba(0, 0, 0, 0.5);
   top: 0;
