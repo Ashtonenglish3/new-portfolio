@@ -151,7 +151,7 @@ nav {
       padding: 6px; }
       .container1 .header-text .text-grid img {
         border-radius: 50%;
-        border: 6px solid white;
+        border: 6px solid #238bb1;
         width: 38vh;
         margin-left: 64%; }
       .container1 .header-text .text-grid .text {
@@ -187,7 +187,7 @@ nav {
       .container1 .skills-section .skills-sub img {
         width: 22%;
         border-radius: 50%;
-        border: 6px solid white;
+        border: 6px solid #238bb1;
         padding: 34px;
         margin-right: 28px; }
 
@@ -208,7 +208,8 @@ nav {
     color: white;
     text-align: center;
     padding-top: 3%;
-    font-size: 6vh; }
+    font-size: 6vh;
+    text-shadow: 4px 4px #0e0c0c; }
   .container2 .con2-grid {
     display: grid;
     grid-gap: -20%;
@@ -345,6 +346,80 @@ nav {
   left: 19%;
   right: 18%;
   color: white; }
+
+.footer {
+  background-image: url("../img/footer.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 50vh;
+  display: inherit; }
+  .footer .contact1 {
+    display: inline-flex;
+    margin-top: 45px; }
+  .footer h1 {
+    text-align: center;
+    font-size: 6vh;
+    color: white;
+    text-shadow: 4px 4px #0e0c0c; }
+  .footer p {
+    text-align: center;
+    color: #BBBABF;
+    background: -webkit-linear-gradient(red, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .footer span {
+    display: inline;
+    word-spacing: 100px; }
+  .footer a {
+    display: inline;
+    white-space: nowrap;
+    margin-left: 148%;
+    background: none;
+    color: grey;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    width: 40px;
+    height: 28px;
+    padding-top: 60px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s; }
+  .footer a span {
+    display: inline;
+    margin-left: 100%;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    left: 216%;
+    padding: 41px 0px;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    word-spacing: 30px; }
+  .footer a:hover span {
+    margin-left: 5%;
+    display: inline;
+    visibility: visible;
+    opacity: 1;
+    word-spacing: 30px; }
+  .footer img {
+    display: inline;
+    margin-left: 100%;
+    width: 12vh; }
+  .footer .icon1 {
+    list-style-type: none;
+    display: inline; }
+  .footer .icon1:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.7); }
 
 /* 
   ##Device = Desktops
