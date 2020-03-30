@@ -116,7 +116,8 @@ a{
     margin-bottom: 5px;
     position: relative;
     text-decoration: none;
-    background: rgb(35, 139, 177);
+    background: white;
+    text-shadow: 4px 4px rgb(14, 12, 12);
     border-radius: 3px;
     
     z-index: 1;
@@ -222,7 +223,7 @@ a{
       padding: 6px;
        img{
         border-radius: 50%;
-        border: 6px solid rgb(35, 139, 177);
+        border: 6px solid white;
         width: 38vh;
         margin-left: 64%;
        }
@@ -251,6 +252,7 @@ a{
     text-align: center;
     font-size: 6vh;
     padding-top: 19%;
+    text-shadow: 4px 4px rgb(14, 12, 12);
     }
     h3{
         color: white;
@@ -271,7 +273,7 @@ a{
     img{
       width: 22%;
     border-radius: 50%;
-    border: 6px solid rgb(35, 139, 177);
+    border: 6px solid white;
     padding: 34px;
     margin-right: 28px;
     }
@@ -547,6 +549,7 @@ a{
     visibility: visible;
     opacity: 1;
     word-spacing:30px;
+    text-shadow: 2px 2px rgb(14, 12, 12);
   }
   
   
