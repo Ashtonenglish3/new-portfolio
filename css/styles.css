@@ -421,6 +421,16 @@ nav {
     -webkit-transform: scale(1.5);
     transform: scale(1.7); }
 
+.copy {
+  background-color: #040A10;
+  height: 6vh; }
+  .copy h4 {
+    text-align: center;
+    /* margin-top: 0px; */
+    color: white;
+    /* top: 10px; */
+    padding-top: 7px; }
+
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
