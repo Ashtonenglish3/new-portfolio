@@ -407,15 +407,23 @@ a:hover
 
 
 @media (min-width: 240px) and (max-width: 320px) {
-
+  html{
+    overflow-x: hidden;
+  }
   .Header {
     background-image:  url("../img/header.jpg");
-    height: 220vh;
+    height: 102vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     background-attachment: fixed;
+    .arrow {
+      left: 34%;
+      position: absolute;
+      width: 9vh;
+      bottom: 18%;
+  }
 }
 .hero-image {
   background-color: rgba(0,0,0,0.5);
@@ -427,14 +435,16 @@ a:hover
 .header-text{
   float: right;
   color: white;
+  /* top: 12%; */
+  margin-top: 63%;
   /* margin: 4%; */
-  margin-left: 36%;
+  margin-left: 42%;
   text-shadow: 4px 4px #0e0c0c;
   font-family: 'Poppins', sans-serif;
 
   h1{
       letter-spacing: 4px;
-  font-size: 7vh;
+  font-size: 6vh;
   }
   h1 span{
       color: rgba(24, 35, 129, 0.87);
@@ -442,7 +452,7 @@ a:hover
           h2{
               font-size: 4vh;
           }
-
+           
 }
 
 .header-text2 {
@@ -469,5 +479,37 @@ a:hover
 {
   color: black;
 }
-    
+.container1 .header-text .text-grid {
+  grid-template-columns: auto;
+    /* display: inline-grid; */
+    grid-gap: 2%;
+    padding-right: -1%;
+    padding: 0px;
+  img{
+    display: none;
+    border-radius: 50%;
+    border: 6px solid white;
+    width: 32vh;
+    margin-left: 6%;
+  }
+}   
+.container1 .header-text {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 37px;
+  display: grid;
+  margin: 0px;
+  bottom: 0px;
+  left: 19%;
+  right: 18%;
+  color: white;
+}
+.container1 .header-text .text-grid .text {
+  padding-right: 0;
+  /* margin: 7px; */
+  margin-top: 0;
+  padding-left: -11px;
+  /* left: 4px; */
+  margin-right: -10%;
+  /* text-align: center; */
+}
 }

@@ -3,6 +3,9 @@
   text-transform: uppercase;
   scroll-behavior: smooth; }
 
+html {
+  overflow-x: hidden; }
+
 .Header {
   background-image: url("../img/header.jpg");
   height: 134vh;
@@ -17,9 +20,9 @@
     width: 12vh;
     bottom: 32%; }
   .Header .bounce {
-    -moz-animation: bounce 1s infinite;
-    -webkit-animation: bounce 1s infinite;
-    animation: bounce 1s infinite; }
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite; }
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0); }
@@ -763,14 +766,22 @@ nav {
       width: 91%;
       margin: 7%; } }
 @media (min-width: 240px) and (max-width: 320px) {
+  html {
+    overflow-x: hidden; }
+
   .Header {
     background-image: url("../img/header.jpg");
-    height: 220vh;
+    height: 102vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     background-attachment: fixed; }
+    .Header .arrow {
+      left: 34%;
+      position: absolute;
+      width: 9vh;
+      bottom: 18%; }
 
   .hero-image {
     background-color: rgba(0, 0, 0, 0.5);
@@ -782,13 +793,15 @@ nav {
   .header-text {
     float: right;
     color: white;
+    /* top: 12%; */
+    margin-top: 63%;
     /* margin: 4%; */
-    margin-left: 36%;
+    margin-left: 42%;
     text-shadow: 4px 4px #0e0c0c;
     font-family: 'Poppins', sans-serif; }
     .header-text h1 {
       letter-spacing: 4px;
-      font-size: 7vh; }
+      font-size: 6vh; }
     .header-text h1 span {
       color: rgba(24, 35, 129, 0.87); }
     .header-text h2 {
@@ -811,6 +824,38 @@ nav {
     transition: color 0.3s ease; }
 
   a:hover {
-    color: black; } }
+    color: black; }
+
+  .container1 .header-text .text-grid {
+    grid-template-columns: auto;
+    /* display: inline-grid; */
+    grid-gap: 2%;
+    padding-right: -1%;
+    padding: 0px; }
+    .container1 .header-text .text-grid img {
+      display: none;
+      border-radius: 50%;
+      border: 6px solid white;
+      width: 32vh;
+      margin-left: 6%; }
+
+  .container1 .header-text {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 37px;
+    display: grid;
+    margin: 0px;
+    bottom: 0px;
+    left: 19%;
+    right: 18%;
+    color: white; }
+
+  .container1 .header-text .text-grid .text {
+    padding-right: 0;
+    /* margin: 7px; */
+    margin-top: 0;
+    padding-left: -11px;
+    /* left: 4px; */
+    margin-right: -10%;
+    /* text-align: center; */ } }
 
 /*# sourceMappingURL=styles.css.map */
