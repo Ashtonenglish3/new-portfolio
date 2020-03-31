@@ -553,7 +553,12 @@ nav {
     transition: color 0.3s ease; }
 
   a:hover {
-    color: black; } }
+    color: black; }
+
+  .container1 .skills-section .skills-sub {
+    display: inline-flex;
+    grid-template-columns: auto auto auto;
+    margin: 12%; } }
 /* 
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
@@ -609,7 +614,12 @@ nav {
     transition: color 0.3s ease; }
 
   a:hover {
-    color: black; } }
+    color: black; }
+
+  .container1 .skills-section .skills-sub {
+    display: inline-flex;
+    grid-template-columns: auto auto auto;
+    margin: 12%; } }
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
@@ -684,12 +694,19 @@ nav {
 
   .container1 {
     background-image: url("../img/con1.jpg");
-    height: 105vh;
+    height: 141vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     background-attachment: fixed; }
+    .container1 .con1 h1 {
+      color: white;
+      margin-left: 45px;
+      text-align: center;
+      font-size: 5vh;
+      padding-top: 19%;
+      text-shadow: 4px 4px #0e0c0c; }
 
   .container2 {
     background-image: url("../img/con3.jpg");
@@ -718,7 +735,22 @@ nav {
       width: 101%;
       margin: 5%; }
     .container2 .grid {
-      width: 200%; } }
+      width: 200%; }
+
+  .container1 .skills-section .skills-sub {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* margin: 5%; */
+    margin-top: 9px;
+    margin-left: 196px;
+    grid-gap: 16px; }
+
+  .container1 .skills-section .skills-sub img {
+    width: 75%;
+    border-radius: 50%;
+    border: 6px solid white;
+    padding: 14px;
+    margin-right: 28px; } }
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -792,12 +824,34 @@ nav {
 
   .container1 {
     background-image: url("../img/con1.jpg");
-    height: 105vh;
+    height: 152vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     background-attachment: fixed; }
+
+  .container1 .skills-section .skills-sub {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* margin: 5%; */
+    margin-top: 9px;
+    margin-left: 52px;
+    grid-gap: 16px; }
+
+  .container1 .skills-section .skills-sub img {
+    width: 75%;
+    border-radius: 50%;
+    border: 6px solid white;
+    padding: 14px;
+    margin-right: 28px; }
+
+  .container1 .con1 h1 {
+    color: white;
+    text-align: center;
+    font-size: 5vh;
+    padding-top: 19%;
+    text-shadow: 4px 4px #0e0c0c; }
 
   .container2 {
     background-image: url("../img/con3.jpg");
