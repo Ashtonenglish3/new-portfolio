@@ -4,6 +4,9 @@
 */
 
 @media (min-width: 1281px) {
+  html{
+    overflow-x: hidden;
+  }
     .header-text{
         float: right;
         color: white;
@@ -12,6 +15,11 @@
         text-shadow: 4px 4px rgb(14, 12, 12);
         font-family: 'Poppins', sans-serif;
     }
+    .container1 .skills-section .skills-sub {
+      display: inline-flex;
+      grid-template-columns: auto auto auto;
+      margin: 12%;
+  }
 }
 
 
@@ -21,7 +29,9 @@
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-
+  html{
+    overflow-x: hidden;
+  }
     .header-text{
         float: right;
         color: white;
@@ -30,7 +40,11 @@
         text-shadow: 4px 4px rgb(14, 12, 12);
         font-family: 'Poppins', sans-serif;
     }
-
+    .container1 .skills-section .skills-sub {
+      display: inline-flex;
+      grid-template-columns: auto auto auto;
+      margin: 12%;
+  }
 }
 
 /* 
@@ -39,10 +53,12 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
+  html{
+    overflow-x: hidden;
+  }
   .Header {
     background-image:  url("../img/header.jpg");
-    height: 134vh;
+    height: 114vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,6 +91,12 @@
               font-size: 4vh;
           }
 
+}
+.container1 .header-text .text-grid img {
+  border-radius: 50%;
+  border: 6px solid white;
+  width: 33vh;
+  margin-left: 46%;
 }
 
 .header-text2{
@@ -111,10 +133,12 @@ a:hover
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
+  html{
+    overflow-x: hidden;
+  }
   .Header {
     background-image:  url("../img/header.jpg");
-    height: 134vh;
+    height: 114vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -180,10 +204,12 @@ a:hover
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-
+  html{
+    overflow-x: hidden;
+  }
   .Header {
     background-image:  url("../img/header.jpg");
-    height: 196vh;
+    height: 122vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -200,7 +226,7 @@ a:hover
 .header-text{
   float: right;
   color: white;
-  margin-top: 42%;
+  margin-top: 30%;
   /* margin: 11%; */
   /* margin-left: 50%; */
   text-shadow: 4px 4px #0e0c0c;
@@ -217,6 +243,19 @@ a:hover
               font-size: 4vh;
           }
 
+}
+.container1 .header-text .text-grid {
+  grid-template-columns: auto auto;
+  display: inline-grid;
+  grid-gap: 0%;
+  margin-right: -12%;
+  padding: 5px;
+}
+.container1 .header-text .text-grid img {
+  border-radius: 50%;
+  border: 6px solid white;
+  width: 33vh;
+  margin-left: -3%;
 }
 
 .header-text2{
@@ -296,9 +335,12 @@ a:hover
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
+  html{
+    overflow-x: hidden;
+  }
   .Header {
     background-image:  url("../img/header.jpg");
-    height: 147vh;
+    height: 112vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -315,7 +357,7 @@ a:hover
 .header-text{
   float: right;
   color: white;
-  margin-top: 56%;
+  margin-top: 37%;
   /* margin-left: 17%; */
   text-shadow: 4px 4px #0e0c0c;
   font-family: 'Poppins', sans-serif;
@@ -332,7 +374,19 @@ a:hover
           }
 
 }
-
+.Header .arrow {
+  left: 42%;
+  position: absolute;
+  width: 12vh;
+  bottom: 23%;
+}
+.container1 .header-text .text-grid img {
+  display: none;
+  border-radius: 50%;
+  border: 6px solid white;
+  width: 38vh;
+  margin-left: 64%;
+}
 .header-text2{
   background: rgba(0, 0, 0, 0.7);
   padding: 22px;
@@ -485,6 +539,9 @@ a:hover
     grid-gap: 2%;
     padding-right: -1%;
     padding: 0px;
+    h1{
+      font-size: 6vh;
+    }
   img{
     display: none;
     border-radius: 50%;
@@ -492,7 +549,19 @@ a:hover
     width: 32vh;
     margin-left: 6%;
   }
-}   
+}  
+.container1 {
+  background-image: url(../img/con1.jpg);
+  height: 201vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  .con1 h1{
+    font-size: 5vh;
+  }
+} 
 .container1 .header-text {
   background: rgba(0, 0, 0, 0.7);
   padding: 37px;
@@ -512,4 +581,14 @@ a:hover
   margin-right: -10%;
   /* text-align: center; */
 }
+.container1 .skills-section .skills-sub img {
+  width: 70%;
+    border-radius: 50%;
+    border: 6px solid white;
+    padding: 35px;
+    margin-bottom: 6%;
+    margin-right: 5%;
+    margin-left: 11%;
+}
+
 }
