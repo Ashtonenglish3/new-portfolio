@@ -368,7 +368,7 @@ nav {
   color: white; }
 
 .footer {
-  background-image: url("../img/footer.jpg");
+  background-image: url("../img/footer2.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -710,7 +710,7 @@ nav {
 
   .container2 {
     background-image: url("../img/con3.jpg");
-    height: 161vh;
+    height: 296vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -737,6 +737,25 @@ nav {
     .container2 .grid {
       width: 200%; }
 
+  .hover-image .hover-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    margin: 7%;
+    width: 91%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s; }
+
+  .container2 .hover-image:hover .hover-details {
+    top: 55%;
+    left: 40%;
+    opacity: 1; }
+
   .container1 .skills-section .skills-sub {
     display: grid;
     grid-template-columns: auto auto;
@@ -750,7 +769,18 @@ nav {
     border-radius: 50%;
     border: 6px solid white;
     padding: 14px;
-    margin-right: 28px; } }
+    margin-right: 28px; }
+
+  .container3 .time-text {
+    width: 95%;
+    padding: 0px 62px;
+    margin-bottom: -10px;
+    color: #b6b4b4; }
+
+  .container3 .time-left {
+    text-align: right;
+    direction: rtl;
+    padding-bottom: 1px; } }
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -862,11 +892,24 @@ nav {
 
   .container2 {
     background-image: url("../img/con3.jpg");
-    height: 161vh;
+    height: 266vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative; }
+    .container2 .hover-image .hover-overlay {
+      background: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      margin: 7%;
+      width: 91%;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      opacity: 0;
+      -webkit-transition: all 0.4s ease-in-out 0s;
+      -moz-transition: all 0.4s ease-in-out 0s;
+      transition: all 0.4s ease-in-out 0s; }
     .container2 .con2 {
       background-color: rgba(0, 0, 0, 0.7);
       top: 0;
@@ -885,7 +928,43 @@ nav {
       padding-right: 6%; }
     .container2 img {
       width: 91%;
-      margin: 7%; } }
+      margin: 7%; }
+
+  .container3 {
+    width: 80%;
+    /* padding: 50px 0; */
+    margin: 50px auto;
+    position: relative;
+    /* overflow: hidden; */
+    display: grid;
+    grid-template-columns: auto; }
+
+  .container3 .dot {
+    display: none; }
+
+  .container3:before {
+    display: none; }
+
+  .container3 .time-text {
+    width: auto;
+    margin-bottom: 8px;
+    padding: 0;
+    color: #b6b4b4; }
+
+  .container3 .time-text h2 {
+    color: white;
+    white-space: nowrap; }
+
+  .container3 .time-left {
+    text-align: left;
+    /* direction: inherit; */
+    padding-bottom: 0; }
+
+  .container3 .time-text-left {
+    /* width: 0; */
+    padding: inherit;
+    margin-bottom: 94px;
+    color: #b6b4b4; } }
 @media (min-width: 240px) and (max-width: 320px) {
   html {
     overflow-x: hidden; }
@@ -999,6 +1078,21 @@ nav {
     padding: 35px;
     margin-bottom: 6%;
     margin-right: 5%;
-    margin-left: 11%; } }
+    margin-left: 11%; }
+
+  .container2 .con2-grid {
+    display: grid;
+    grid-gap: -20%;
+    grid-template-columns: auto;
+    padding-right: 6%; }
+
+  img {
+    width: 91%;
+    margin: 7%; }
+
+  .container2 .hover-image:hover .hover-details {
+    top: 52%;
+    left: 43%;
+    opacity: 1; } }
 
 /*# sourceMappingURL=styles.css.map */
