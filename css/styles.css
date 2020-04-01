@@ -853,6 +853,13 @@ nav {
     padding-top: 19%;
     text-shadow: 4px 4px #0e0c0c; }
 
+  .container1 .header-text .text-grid {
+    grid-template-columns: auto auto;
+    display: inline-grid;
+    grid-gap: 1%;
+    padding-right: -1%;
+    padding: 5px; }
+
   .container2 {
     background-image: url("../img/con3.jpg");
     height: 161vh;
