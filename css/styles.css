@@ -278,7 +278,7 @@ nav {
     left: 50%;
     opacity: 1; }
   .container2 .hover-details h3 {
-    color: #fff;
+    color: white;
     font-weight: 500;
     letter-spacing: 0.15em;
     margin-bottom: 0.5em;
@@ -486,8 +486,7 @@ nav {
 
   .footer a {
     display: inline;
-    white-space: nowrap;
-    margin-left: 128%;
+    margin-left: 165%;
     background: none;
     color: grey;
     border-radius: 100%;
@@ -535,7 +534,6 @@ nav {
 
   .footer a {
     display: inline;
-    white-space: nowrap;
     margin-left: 103%;
     background: none;
     color: grey;
@@ -639,7 +637,6 @@ nav {
 
   .footer a {
     display: inline;
-    white-space: nowrap;
     margin-left: 75%;
     background: none;
     color: grey;
@@ -718,7 +715,6 @@ nav {
 
   .footer a {
     display: inline;
-    white-space: nowrap;
     margin-left: 75%;
     background: none;
     color: grey;
@@ -903,7 +899,6 @@ nav {
 
   .footer a {
     display: inline;
-    white-space: nowrap;
     margin-left: 37%;
     background: none;
     color: grey;
@@ -1107,8 +1102,7 @@ nav {
 
   .container3 .time-text h2 {
     color: white;
-    font-size: 3vh;
-    white-space: nowrap; }
+    font-size: 3vh; }
 
   .container3 .time-text-left h2 {
     color: white;
@@ -1134,7 +1128,6 @@ nav {
 
   .footer a {
     display: inline;
-    white-space: nowrap;
     margin-left: 9%;
     background: none;
     color: grey;
