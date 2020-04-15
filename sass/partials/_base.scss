@@ -363,7 +363,8 @@ a{
   opacity: 1;
     }
     .hover-details h3{
-      color: $text-color;
+      color: $light-blue;
+      text-shadow: 1px 1px white;
       font-weight: 500;
       letter-spacing: 0.15em;
       margin-bottom: 0.5em;
