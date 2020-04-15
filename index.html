@@ -10,7 +10,11 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <div><a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect"></a><a href="https://www.flaticon.com/" title="Flaticon"></a></div>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css ">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Ashton English|Online Portfolio</title>
 </head>
@@ -177,6 +181,30 @@
 <div class="copy">
   <h4>Copyright © Ashton English</h4>
 </div>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+<script>
+  //fetches the id forom the button
+        var mybutton = document.getElementById("myBtn");
+  
+  //when you scroll past 20px of your site
+     window.onscroll = function(){scrollFunction()};
+  
+     function scrollFunction() {
+         if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
+             mybutton.style.display = "block";
+         } else {
+             mybutton.style.display = "none";
+         }
+     }
+  
+     //when user clicks button and it goes to the top
+  
+     function topFunction(){
+         document.body.scrollTop = 0;
+         document.documentElement.scrollTop = 0;
+     }
+  
+    </script>
 
 <script src="js/styles.js"></script>
 </body>
