@@ -274,13 +274,14 @@ a{
     grid-template-columns: auto auto auto;
     margin: 12%;
     img{
-      width: 22%;
-    border-radius: 50%;
-    border: 6px solid $text-color;
-    padding: 34px;
-    margin-right: 28px;
+      width: 20%;
+      /* border-radius: 50%; */
+      border: 6px solid white;
+      padding: 34px;
+      margin-right: 81px;
     }
   }
+  
 }
 }
 
