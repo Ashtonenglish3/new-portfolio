@@ -147,7 +147,7 @@ nav {
 
 .container1 {
   background-image: url("../img/con1.jpg");
-  height: 148vh;
+  height: 142vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -190,7 +190,8 @@ nav {
       color: white;
       text-align: center;
       font-size: 6vh;
-      padding-top: 19%;
+      padding-top: 27%;
+      margin-bottom: -73px;
       text-shadow: 4px 4px #0e0c0c; }
     .container1 .con1 h3 {
       color: white;
