@@ -1029,16 +1029,16 @@ nav {
     display: grid;
     grid-template-columns: auto auto;
     /* margin: 5%; */
-    margin-top: 9px;
-    margin-left: 52px;
-    grid-gap: 16px; }
+    margin-top: 102px;
+    margin-left: 67px;
+    grid-gap: 53px; }
 
   .container1 .skills-section .skills-sub img {
-    width: 75%;
+    width: 173%;
     border-radius: 50%;
     border: 6px solid white;
-    padding: 14px;
-    margin-right: 28px; }
+    padding: 17px;
+    margin-right: 12px; }
 
   .container1 .con1 h1 {
     color: white;
