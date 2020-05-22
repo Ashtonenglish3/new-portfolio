@@ -515,7 +515,14 @@ nav {
     padding-top: 60px;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
-    transition: all .5s; } }
+    transition: all .5s; }
+
+  .container1 .skills-section .skills-sub img {
+    width: 20%;
+    border-radius: 50%;
+    border: 6px solid white;
+    padding: 34px;
+    margin-right: 81px; } }
 /* 
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
@@ -563,7 +570,14 @@ nav {
     padding-top: 60px;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
-    transition: all .5s; } }
+    transition: all .5s; }
+
+  .container1 .skills-section .skills-sub img {
+    width: 20%;
+    border-radius: 50%;
+    border: 6px solid white;
+    padding: 34px;
+    margin-right: 81px; } }
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
@@ -666,7 +680,14 @@ nav {
     padding-top: 60px;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
-    transition: all .5s; } }
+    transition: all .5s; }
+
+  .container1 .skills-section .skills-sub img {
+    width: 19vh;
+    border-radius: 50%;
+    border: 6px solid white;
+    padding: 21px;
+    margin-right: 26px; } }
 /* 
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
@@ -725,9 +746,11 @@ nav {
     color: black; }
 
   .container1 .skills-section .skills-sub {
-    display: inline-flex;
-    grid-template-columns: auto auto auto;
-    margin: 12%; }
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 15%;
+    grid-gap: -9%;
+    margin-top: 24%; }
 
   .footer a {
     display: inline;
@@ -744,7 +767,14 @@ nav {
     padding-top: 60px;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
-    transition: all .5s; } }
+    transition: all .5s; }
+
+  .container1 .skills-section .skills-sub img {
+    width: 19vh;
+    border-radius: 50%;
+    border: 6px solid white;
+    padding: 21px;
+    margin-right: 26px; } }
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
@@ -884,16 +914,16 @@ nav {
   .container1 .skills-section .skills-sub {
     display: grid;
     grid-template-columns: auto auto;
-    /* margin: 5%; */
-    margin-top: 9px;
-    margin-left: 196px;
-    grid-gap: 16px; }
+    margin: 5%;
+    margin-top: 18%;
+    margin-left: 106px;
+    grid-gap: 64px; }
 
   .container1 .skills-section .skills-sub img {
-    width: 75%;
+    width: 18vh;
     border-radius: 50%;
     border: 6px solid white;
-    padding: 14px;
+    padding: 18px;
     margin-right: 28px; }
 
   .container3 .time-text {
@@ -1028,16 +1058,16 @@ nav {
   .container1 .skills-section .skills-sub {
     display: grid;
     grid-template-columns: auto auto;
-    /* margin: 5%; */
-    margin-top: 102px;
-    margin-left: 67px;
-    grid-gap: 53px; }
+    margin: 5%;
+    margin-top: 89px;
+    margin-left: 51px;
+    grid-gap: 91px; }
 
   .container1 .skills-section .skills-sub img {
-    width: 173%;
+    width: 189%;
     border-radius: 50%;
     border: 6px solid white;
-    padding: 17px;
+    padding: 22px;
     margin-right: 12px; }
 
   .container1 .con1 h1 {
@@ -1289,11 +1319,18 @@ nav {
     margin-right: -10%;
     /* text-align: center; */ }
 
+  .container1 .skills-section .skills-sub {
+    display: inline;
+    grid-template-columns: auto auto auto;
+    margin: 14%;
+    margin-top: 24%;
+    margin-left: 11%; }
+
   .container1 .skills-section .skills-sub img {
-    width: 70%;
+    width: 68%;
     border-radius: 50%;
     border: 6px solid white;
-    padding: 35px;
+    padding: 19px;
     margin-bottom: 6%;
     margin-right: 5%;
     margin-left: 11%; }
