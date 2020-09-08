@@ -1106,7 +1106,7 @@ nav {
 
   .container2 {
     background-image: url("../img/con3.jpg");
-    height: 336vh;
+    height: 267vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1147,7 +1147,7 @@ nav {
   .container3 {
     width: 82%;
     /* font-size: 2vh; */
-    padding: 53px 3px;
+    padding: 0px 3px;
     margin: 47px auto;
     position: relative;
     /* overflow: hidden; */
@@ -1182,12 +1182,18 @@ nav {
   .container3 .time-left {
     text-align: left;
     /* direction: inherit; */
-    padding-bottom: 0; }
+    padding-bottom: 0;
+    width: 100%; }
+
+  .container3 .time-right {
+    float: right;
+    width: 100%; }
 
   .container3 .time-text-left {
     /* width: 0; */
     padding: inherit;
-    margin-bottom: 94px;
+    margin-bottom: 39px;
+    padding-top: 23px;
     color: #b6b4b4; }
 
   .footer .contact1 {
