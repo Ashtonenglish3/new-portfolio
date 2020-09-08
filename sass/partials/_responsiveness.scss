@@ -773,6 +773,11 @@ a:hover
   /* overflow: hidden; */
   display: grid;
   grid-template-columns: auto;
+.line-break {
+  border: 1px solid white;
+  width: 179%;
+  display: inline-block;
+}
 }
 .container3 .dot {
   display: none;
