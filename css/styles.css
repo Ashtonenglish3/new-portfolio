@@ -577,7 +577,15 @@ nav {
     border-radius: 50%;
     border: 6px solid white;
     padding: 34px;
-    margin-right: 81px; } }
+    margin-right: 81px; }
+
+  .container2 {
+    background-image: url(../img/con3.jpg);
+    height: 261vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; } }
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
@@ -648,7 +656,7 @@ nav {
 
   .container2 {
     background-image: url(../img/con3.jpg);
-    height: 245vh;
+    height: 296vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -865,7 +873,7 @@ nav {
 
   .container2 {
     background-image: url("../img/con3.jpg");
-    height: 296vh;
+    height: 345vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -975,6 +983,14 @@ nav {
     -webkit-transition: all .4s;
     transition: all .4s;
     word-spacing: 30px; } }
+@media screen and (device-aspect-ratio: 2 / 3) {
+  .container2 {
+    background-image: url(../img/con3.jpg);
+    height: 362vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; } }
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
